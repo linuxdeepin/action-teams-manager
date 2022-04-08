@@ -81,6 +81,7 @@ teams:
       - triage:
           - repository1 # repository name
       - maintain:
+          - "*" # all repositories
           - repository2 # repository name
     projects_permissions:
       # permissions = ["read", "write", "admin"];
